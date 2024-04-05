@@ -1,0 +1,184 @@
+
+*{/* ОБОВЯЗКОВО НА КОЖНОМУ ПРОЕКТІ */ 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    outline: 0; 
+    list-style: none; 
+    box-sizing: border-box; 
+    text-decoration: none;
+}
+body{
+    background-color: rgb(15, 109, 4);
+}
+.boks{
+    margin: 0 auto;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.box{
+    margin: 20px auto;
+    justify-content: center;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    width: 324px;
+    height:108px;
+    background-color: black;
+    &__img{
+        width: 100px;
+    }
+    &__blok{
+        &-p{
+            color:white ;
+            font-size: 30px;
+        }
+        &-h2{
+            color: rgb(255, 255, 255);
+            font-size: 16px;
+        }
+    }
+    
+}
+.body__h1{
+    font-size: 35px;
+    text-align: center;
+    color: aliceblue;
+}
+.body__p{
+    font-size: 15px;
+    text-align: center;
+    color: aliceblue;
+}
+.center{
+    
+    height: 100px;
+    width: 1200px;
+    align-items: center;
+    margin: 0 auto;
+    background-color: rgb(254, 221, 172);
+    border-radius: 25px;
+display: flex;
+justify-content: space-around;
+    &-box{
+        display:flex ;
+        &-curcl{
+            margin-right: 20px;
+            width: 40px;
+            height: 40px;
+            border-radius: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(244, 153, 87);
+        &-img{
+            
+        }
+        }
+        &-text{
+            &-p{
+                margin-top: 5px;
+            }
+        }
+
+        
+    }
+&-box1{
+    display:flex ;
+        &-curcl{
+            margin-right: 20px;
+            width: 40px;
+            height: 40px;
+            border-radius: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(87, 145, 244);
+        &-img{
+            
+        }
+        }
+        &-text{
+            &-p{
+                margin-top: 5px;
+            }
+        }
+        
+
+        
+    }
+    &-box2{
+        display:flex ;
+        &-curcl{
+            margin-right: 20px;
+            width: 40px;
+            height: 40px;
+            border-radius: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(116, 244, 87);
+            
+        &-img{
+            
+        }
+        }
+        &-text{
+            &-p{
+                margin-top: 5px;
+            }
+        }
+        
+
+        
+    }
+}
+.box-end{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+.box-end-blok-p{
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+}
+.box-end-blok-h2{
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
